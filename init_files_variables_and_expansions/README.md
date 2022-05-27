@@ -1,0 +1,1 @@
+This is the Directory for Shell, init files, variables and expansions project
