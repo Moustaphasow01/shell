@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# displays Holberton School 10 times.
+# displays Best school School 10 times.
 
 expr=0
 while [ $expr -lt 11 ]
