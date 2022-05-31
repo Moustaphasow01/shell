@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# displays  numbers from 1 to 100
+
+expr=1
+while [ $expr -lt 101 ]
+do
+ if [ $((expr%15)) = 0 ]
+    then
+echo "FizzBuzz"
+ elif [ $((expr%3)) = 0 ]
+     then
+     echo "Fizz"
+    elif [ $((expr%5)) = 0 ]
+      then
+     echo "Buzz"
+    else
+   echo "$expr"
+ fi
+    (( expr++ ))
+done
