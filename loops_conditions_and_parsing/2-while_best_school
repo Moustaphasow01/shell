@@ -4,6 +4,6 @@
 expr=0
 while [ $expr -lt 10 ]
 do
-    echo "Best school"
-       (( expr ))
+    echo "Best School"
+       (( expr+ ))
 done
