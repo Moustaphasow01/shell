@@ -1,0 +1,19 @@
+table File  17 lines (16 sloc)  287 Bytes
+
+#!/usr/bin/env bash
+# displays Best School 10 times.
+
+expr=1
+while [ $expr -lt 11 ]
+do
+    if [ $expr = 4 ]
+        then
+	        echo "bad luck"
+		    elif [ $expr = 8 ]
+		        then
+			        echo "good luck"
+				    else
+				            echo "Best School"
+					        fi
+						    (( expr++ ))
+						    done
