@@ -1,0 +1,1 @@
+This is the directory for Shell, loops, conditions and parsing project 
