@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# displays numbers from 1 to 20.
+expr=1
+while [ $expr -lt 21 ]
+do
+    case $expr in
+
+        4)
+	echo $expr
+        echo "bad luck from China"
+        ;;
+
+       9)
+        echo $expr
+        echo "bad luck from Japan"
+        ;;
+        17)
+       echo $expr
+       echo "bad luck from Italy"
+       ;;
+       *)
+         echo $expr
+ 	 ;;
+	  esac
+
+    	  (( expr++))
+    done
